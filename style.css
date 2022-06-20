@@ -1,0 +1,206 @@
+@media (max-width: 576px) {
+    .space-sec-1 {
+        padding-top: 2rem !important;
+        padding-bottom: 4rem !important;
+    }
+
+    .space-sec-2 {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+
+    .h1-do-vitu {
+        font-size: 40px !important;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .img-vitu {
+        display: none;
+    }
+
+    .accordion-icon {
+        display: none
+    }
+
+    .itens {
+        flex-basis: 100% !important;
+    }
+
+    .c-1 {
+        margin-top: 1rem !important;
+    }
+
+    .infos {
+        justify-content: baseline;
+        gap: 20px;
+    }
+
+    .cv {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.sub-s {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.h1-do-vitu {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.space-aux {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.space-sec-1 {
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+}
+
+.space-sec-2 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.space-sec {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.labs {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+span {
+    position: relative;
+    display: inline-block;
+}
+
+span div {
+    position: absolute;
+    top: 70%;
+    left: -2%;
+    width: 0%;
+    height: 25%;
+    z-index: -1;
+    background: linear-gradient(135deg, rgb(105, 170, 255) 0%, rgb(105, 170, 255) 80%, rgb(10, 116, 255) 100%);
+}
+
+.photo-bg {
+    -webkit-filter: drop-shadow(-20px 20x 0px rgb(0, 110, 255));
+    filter: drop-shadow(20px 20px 0px rgb(0, 110, 255));
+    border-radius: 50%;
+    max-width: 72px;
+    min-width: 56px;
+    border: 2px solid rgb(0, 110, 255);
+}
+
+.btn-vitu {
+    background-color: deepskyblue;
+    display: block;
+}
+
+.cv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.itens {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 0px rgb(0, 110, 255));
+}
+
+.itens-icons {
+    margin-bottom: 0 !important;
+}
+
+p.title {
+    margin-bottom: 0;
+}
+
+.title {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.areas {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 0px !important;
+}
+
+.accordion-button {
+    padding: 40px !important;
+    font-size: large !important;
+    font-weight: 600;
+    line-height: 200%;
+}
+
+.accordion-icon {
+    margin: 0;
+}
+
+.accordion-body {
+    padding: 40px !important;
+}
+
+.resume {
+    line-height: 200%;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -9,7 +9,7 @@
         padding-bottom: 4rem !important;
     }
 
-    .h1-do-vitu {
+    .h1-mod {
         font-size: 40px !important;
     }
 
@@ -44,6 +44,11 @@
     }
 }
 
+.bg-gray {
+    background-color: rgba(239, 240, 246, 0.3);
+    z-index: -1;
+}
+
 .h1,
 .h2,
 .h3,
@@ -71,7 +76,7 @@ li {
     margin-bottom: 0;
 }
 
-.h1-do-vitu {
+.h1-mod {
     font-size: 50px;
     font-weight: bold;
 }

@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: copy file via ssh password
-        uses: ra230261@main
+        uses: cvaraujo/Webpage-Carlos-Unicamp@main
         with:
           host: ${{ ssh.ic.unicamp.br }}
           username: ${{ ra230261 }}

@@ -41,7 +41,7 @@
 
     .infos {
         justify-content: baseline;
-        gap: 20px;
+        row-gap: 20px !important;
     }
 
     .cv {
@@ -50,6 +50,42 @@
     }
 }
 
+.swap-on-hover {
+    position: relative;	
+      margin:  0 auto;
+      max-width: 500px;
+  }
+  
+  /* Select the image and make it absolute to the container */
+  .swap-on-hover img {
+    position: absolute;
+    top:0;
+    left:0;
+      overflow: hidden;
+      /* Sets the width and height for the images*/
+      width: 500px;
+      height: 500px;
+  }
+  
+  /* 
+      We set z-index to be higher than the back image, so it's alwyas on the front.
+  
+  We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect. 
+  */
+  .swap-on-hover .swap-on-hover__front-image {
+    z-index: 9999;
+    transition: opacity .5s linear;
+    cursor: pointer;
+  }
+  
+  /* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
+  .swap-on-hover:hover > .swap-on-hover__front-image{
+    opacity: 0;
+  }
+
+.navbar-brand{
+    margin: 0px !important;
+}
 
 .bg-gray {
     background-color: hsla(231, 28%, 95%, 0.3);
@@ -179,6 +215,10 @@ span div {
     flex-direction: column;
 }
 
+.img-vitu:hover{
+    background: url("img/img-2.jfif") no-repeat;
+}
+
 .itens-icons {
     margin-bottom: 0 !important;
 }
@@ -227,5 +267,5 @@ p.title {
 .infos {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    row-gap: 100px;
 }

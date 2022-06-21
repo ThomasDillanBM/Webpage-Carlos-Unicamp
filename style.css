@@ -1,4 +1,8 @@
-@media (max-width: 576px) {
+@media (max-width: 800px) {
+    .img-vitu {
+        display: none;
+    }
+
     .space-sec-1 {
         padding-top: 2rem !important;
         padding-bottom: 4rem !important;
@@ -17,16 +21,18 @@
         display: none;
     }
 
-    .img-vitu {
-        display: none;
-    }
-
     .accordion-icon {
         display: none
     }
 
     .itens {
         flex-basis: 100% !important;
+    }
+
+    .itens-2 {
+        flex-basis: 100% !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .c-1 {
@@ -44,10 +50,18 @@
     }
 }
 
+
 .bg-gray {
-    background-color: rgba(239, 240, 246, 0.3);
+    background-color: hsla(231, 28%, 95%, 0.3);
     z-index: -1;
 }
+.bg-dark-1{
+    background-color: #0F0F0F;
+}    
+
+.bg-dark-2{
+    background-color: #2E2E33;
+}    
 
 .h1,
 .h2,
@@ -143,7 +157,7 @@ span div {
 .cv {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     gap: 16px;
 }
 
@@ -157,6 +171,12 @@ span div {
     border: 2px solid rgb(0, 110, 255);
     border-radius: 20px;
     filter: drop-shadow(10px 10px 0px rgb(0, 110, 255));
+}
+
+.itens-2 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
 }
 
 .itens-icons {

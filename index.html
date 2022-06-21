@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" type="image/x-icon"
-		href="https://www.ic.unicamp.br/~stolfi/EXPORT/projects/ic-logos/2010-03-16/logotipos/png/logo-unicamp-anon-line-wht-wht-0480.png">
+		href="https://www.ic.unicamp.br/~stolfi/EXPORT/projects/ic-logos/2010-03-16/logotipos/png/logo-unicamp-anon-line-blk-red-0120.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
@@ -20,7 +20,7 @@
 		integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
-	<nav class="navbar navbar-dark bg-dark">
+	<nav class="navbar navbar-dark bg-dark-1" id="home">
 		<div class="container">
 			<a class="navbar-brand" href="https://www.ic.unicamp.br/" target="_blank">
 				<img src="https://www.ic.unicamp.br/~stolfi/EXPORT/projects/ic-logos/2010-03-16/logotipos/png/logo-unicamp-anon-line-wht-wht-0480.png"
@@ -48,7 +48,8 @@
 						<p class="sub-s">PhD Student</p>
 					</div>
 					<div class="row">
-						<h1 class="h1-mod" data-aos="fade-up" data-aos-delay="200">Hey there! I'm Carlos Araújo, a problem solver and. PhD student at
+						<h1 class="h1-mod" data-aos="fade-up" data-aos-delay="200">Hey there! I'm Carlos Araújo, a
+							problem solver and PhD student at
 
 							<span>
 								<div id="span-text" style="opacity: 1; width: 105%;"></div>
@@ -56,9 +57,8 @@
 							</span>
 					</div>
 					<div class="cv" data-aos="fade-up" data-aos-delay="400">
-						<button class="btn btn-primary btn-lg btn-vitu md-block" type="submit"
-							onclick=" window.open('cv_carlos_araujo.pdf','_blank')"> <i class="bi bi-download me-1"></i>
-							Short CV here!
+						<button class="btn btn-primary btn-lg btn-vitu md-block" type="submit" onclick=" window.open('cv_carlos_araujo.pdf','_blank')">
+							<i class="fa-solid fa-download pe-1"></i> Short CV here
 						</button>
 						<strong class="align-self-center"> or </strong>
 						<button class="btn btn-outline-primary btn-lg btn-vitu md-block" type="submit"
@@ -74,7 +74,7 @@
 			</div>
 		</section>
 	</div>
-	<div class="space-sec-2">
+	<div class="space-sec-2" id="research-interests">
 		<section class="container">
 			<h1 class="h1-mod" data-aos="fade-up">
 				Research
@@ -103,302 +103,284 @@
 			</div>
 		</section>
 	</div>
-	<div>
-	<div class="bg-gray space-sec-2">
-	<section class="container">
-		<h1 class="h1-mod" data-aos="fade-up">
-			Research
-			<span>
-				<div id="span-text" style="opacity: 1; width: 105%;"></div>
-				Activities
-			</span>
-		</h1>
-		<div class="accordion mt-5" id="accordionExample">
-			<div class="accordion-item" data-aos="fade-left">
-				<h2 class="accordion-header" id="headingOne">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-						<h4 class="bi bi-file-earmark-text accordion-icon pe-4"></h4>
-						Lagrangian Relaxation to the Problem of Maximum Service in Multicast Routing with QoS
-						constraints.
-					</button>
-				</h2>
-				<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-					data-bs-parent="#accordionExample">
-					<div class="accordion-body">
-						<h5>
-							<span class="badge bg-primary rounded-pill mb-3">Under Revision</span>
-						</h5>
-						<p class="resume">
-							<strong>
-								Abstract
-							</strong><br>
-							In this work, we propose and explore a new variant of the <strong>Multicast Routing
-								Problem (MRP) called Maximum Service in Multicast Routing with
-								Quality of Service constraints (MS-MRP-QoS)</strong> applied in the context of vehicular
-							ad-hoc networks, for which data must be sent from a root node to a set of
-							terminal nodes. The use of all nodes is not mandatory and each connection
-							between the root and a terminal aims to satisfy the quality of service according
-							to the limits established for each metric. The objective is to maximize the
-							number of serviced terminals according to the network's quality of service
-							metrics. We present an integer programming formulation and four Lagrangian
-							relaxations, to obtain good primal and dual bounds. We also develop a local
-							search applied during the resolution of the Lagrangian relaxations. These
-							methodologies were subjected to computational experiments with a set of 40
-							instances generated with characteristics of vehicular ad-hoc networks.
-							Statistical analyzes were performed to compare the performances among the
-							methodologies, and the results highlight the effectiveness of the approaches,
-							since the model achieved optimal values for 29 instances, while the Lagrangian
-							relaxations obtained competitive bounds, especially for large instances.
-						</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="accordion-item" data-aos="fade-left">
-				<h2 class="accordion-header" id="headingSeven">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-						<h4 class="bi bi-file-earmark-text accordion-icon pe-4"></h4>
-						Formulações e heurísticas para o problema de máximo atendimento em roteamento multicast com
-						restrições de QoS
-					</button>
-				</h2>
-				<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-					data-bs-parent="#accordionExample">
-					<div class="accordion-body">
-						<p class="resume">
-							<strong>
-								Abstract
-							</strong><br>
-							This work addresses the problem of Maximum Service in Multicast Routing with Quality of
-							Service constraints (MS-MRP-QoS) applied in the context of vehicular ad-hoc networks, where
-							a vehicle network is provided for which it is desired send data from a root node to a set of
-							terminal nodes. The use of all nodes is not mandatory and each connection between the root
-							node and a terminal must satisfy the quality of service according to the limits established
-							for each metric. The objective is to maximize the number of terminals served according to
-							the network's quality of service metrics. In this dissertation, formulations of mixed
-							integer programming and four Lagrangian relaxations were developed, aiming to obtain good
-							quality primal and dual limits. A set of heuristics methods has also been developed, among
-							them a local search in arborescences, applied during the resolution of the Lagrangian
-							relaxations, and three BRKGA meta-heuristics with variations in the decoding method, one of
-							them incorporating information from the Lagrange multipliers. The proposed methodologies
-							were subjected to computational experiments with a set of instances generated with
-							characteristics of ad-hoc vehicular networks. Statistical analyzes were performed to compare
-							the performances between the methodologies. The results highlight the effectiveness of the
-							mixed integer formulation in obtain high quality primal and dual limits for all instances of
-							the set. The integer formulation, Lagrangian relaxations and BRKGA obtained good quality
-							solutions and statistically similar.
-						</p>
-						<button class="btn btn-primary btn-lg btn-vitu md-block mt-3" type="submit"
-							onclick=" window.open('http://repositorio.unicamp.br/Acervo/Detalhe/1165864','_blank')"> <i
-								class="bi bi-file-earmark-text me-1"></i> Complete work here!
+	<div class="bg-gray space-sec-2" id="research-activities">
+		<section class="container">
+			<h1 class="h1-mod" data-aos="fade-up">
+				Research
+				<span>
+					<div id="span-text" style="opacity: 1; width: 105%;"></div>
+					Activities
+				</span>
+			</h1>
+			<div class="accordion mt-5" id="accordionExample">
+				<div class="accordion-item" data-aos="fade-left">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								<i class="fa-regular fa-file-lines fa-xl pe-4"></i>
+							Lagrangian Relaxation to the Problem of Maximum Service in Multicast Routing with QoS
+							constraints.
 						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<h5>
+								<span class="badge bg-primary rounded-pill mb-3">Under Revision</span>
+							</h5>
+							<p class="resume">
+								<strong>
+									Abstract
+								</strong><br>
+								In this work, we propose and explore a new variant of the <strong>Multicast Routing
+									Problem (MRP) called Maximum Service in Multicast Routing with
+									Quality of Service constraints (MS-MRP-QoS)</strong> applied in the context of
+								vehicular
+								ad-hoc networks, for which data must be sent from a root node to a set of
+								terminal nodes. The use of all nodes is not mandatory and each connection
+								between the root and a terminal aims to satisfy the quality of service according
+								to the limits established for each metric. The objective is to maximize the
+								number of serviced terminals according to the network's quality of service
+								metrics. We present an integer programming formulation and four Lagrangian
+								relaxations, to obtain good primal and dual bounds. We also develop a local
+								search applied during the resolution of the Lagrangian relaxations. These
+								methodologies were subjected to computational experiments with a set of 40
+								instances generated with characteristics of vehicular ad-hoc networks.
+								Statistical analyzes were performed to compare the performances among the
+								methodologies, and the results highlight the effectiveness of the approaches,
+								since the model achieved optimal values for 29 instances, while the Lagrangian
+								relaxations obtained competitive bounds, especially for large instances.
+							</p>
+						</div>
 					</div>
-
 				</div>
-			</div>
 
-			<div class="accordion-item" data-aos="fade-left">
-				<h2 class="accordion-header" id="headingTwo">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-						<h4 class="bi bi-file-earmark-text accordion-icon pe-4"></h4>
-						Utilização de desigualdades válidas baseadas em condições de Otimalidade na construção de
-						algoritmos Heurísticos para o problema do Corte Máximo
-					</button>
-				</h2>
-				<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-					data-bs-parent="#accordionExample">
-					<div class="accordion-body">
-						<p class="resume">
-							<strong>
-								Abstract
-							</strong><br>
-							The Max-Cut problem consists of partitioning a set of n nodes into two subsets
-							so that the sum of the edges between the subsets is large as possible. This Course
-							Completion Paper presents 4 new versions of heuristics algorithms, based on
-							Genetic Algorithm and Simulated Annealing, which use a set of valid inequalities
-							in their structure. To the best of our knowledge, we are the first to use valid
-							inequalities in the construction of metaheuristics for the Max-Cut Problem. The
-							results of the computational experiments show that the use of these inequalities
-							causes the algorithms to obtain better results than the classical version,
-							that is, without the inequalities and also, in some cases, competitive with
-							the state of the art for Max Cut.
-						</p>
-						<button class="btn btn-primary btn-lg btn-vitu md-block mt-3" type="submit"
-							onclick=" window.open('https://repositorio.ufc.br/handle/riufc/39085','_blank')"> <i
-								class="bi bi-file-earmark-text me-1"></i> Complete work here!
+				<div class="accordion-item" data-aos="fade-left">
+					<h2 class="accordion-header" id="headingSeven">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+								<i class="fa-regular fa-file-lines fa-xl pe-4"></i>
+							Formulações e heurísticas para o problema de máximo atendimento em roteamento multicast com
+							restrições de QoS
 						</button>
-					</div>
+					</h2>
+					<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<p class="resume">
+								<strong>
+									Abstract
+								</strong><br>
+								This work addresses the problem of Maximum Service in Multicast Routing with Quality of
+								Service constraints (MS-MRP-QoS) applied in the context of vehicular ad-hoc networks,
+								where
+								a vehicle network is provided for which it is desired send data from a root node to a
+								set of
+								terminal nodes. The use of all nodes is not mandatory and each connection between the
+								root
+								node and a terminal must satisfy the quality of service according to the limits
+								established
+								for each metric. The objective is to maximize the number of terminals served according
+								to
+								the network's quality of service metrics. In this dissertation, formulations of mixed
+								integer programming and four Lagrangian relaxations were developed, aiming to obtain
+								good
+								quality primal and dual limits. A set of heuristics methods has also been developed,
+								among
+								them a local search in arborescences, applied during the resolution of the Lagrangian
+								relaxations, and three BRKGA meta-heuristics with variations in the decoding method, one
+								of
+								them incorporating information from the Lagrange multipliers. The proposed methodologies
+								were subjected to computational experiments with a set of instances generated with
+								characteristics of ad-hoc vehicular networks. Statistical analyzes were performed to
+								compare
+								the performances between the methodologies. The results highlight the effectiveness of
+								the
+								mixed integer formulation in obtain high quality primal and dual limits for all
+								instances of
+								the set. The integer formulation, Lagrangian relaxations and BRKGA obtained good quality
+								solutions and statistically similar.
+							</p>
+							<button class="btn btn-primary btn-lg btn-vitu md-block mt-3" type="submit"
+								onclick=" window.open('http://repositorio.unicamp.br/Acervo/Detalhe/1165864','_blank')">
+								<i class="bi bi-file-earmark-text me-1"></i> Complete work here!
+							</button>
+						</div>
 
+					</div>
 				</div>
-			</div>
-			<div class="accordion-item" data-aos="fade-left">
-				<h2 class="accordion-header" id="headingThree">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-						<h4 class="bi bi-file-earmark-text accordion-icon pe-4"></h4>
-						O Problema Da Diversidade Máxima de Grupos: uma abordagem de programação linear inteira
-					</button>
-				</h2>
-				<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-					data-bs-parent="#accordionExample">
-					<div class="accordion-body">
-						<p class="resume">
-							<strong>
-								Abstract
-							</strong><br>
-							In the Maximally Diverse Grouping Problem, are given as input data
-							a set of n elements and a function that provides the diversity degree between
-							pair of elements. The problem is NP-hard and it aims at partitioning the set of
-							elements into smaller subsets, called groups, in such a way that the diversity
-							between the elements belonging to each group is as large as possible. In this
-							paper, we present an integer linear programming model for this problem. The
-							results from computational experiments show that the proposed model performs
-							better when compared with the quadratic one from the literature.
-						</p>
-						<button class="btn btn-primary btn-lg btn-vitu md-block mt-3" type="submit"
-							onclick=" window.open('https://proceedings.science/sbpo-series/sbpo/papers/o-problema-da-diversidade-maxima-de-grupos--uma-abordagem-de-programacao-linear-inteira','_blank')">
-							<i class="bi bi-file-earmark-text me-1"></i> Complete work here!
+
+				<div class="accordion-item" data-aos="fade-left">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								<i class="fa-regular fa-file-lines fa-xl pe-4"></i>
+							Utilização de desigualdades válidas baseadas em condições de Otimalidade na construção de
+							algoritmos Heurísticos para o problema do Corte Máximo
 						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<p class="resume">
+								<strong>
+									Abstract
+								</strong><br>
+								The Max-Cut problem consists of partitioning a set of n nodes into two subsets
+								so that the sum of the edges between the subsets is large as possible. This Course
+								Completion Paper presents 4 new versions of heuristics algorithms, based on
+								Genetic Algorithm and Simulated Annealing, which use a set of valid inequalities
+								in their structure. To the best of our knowledge, we are the first to use valid
+								inequalities in the construction of metaheuristics for the Max-Cut Problem. The
+								results of the computational experiments show that the use of these inequalities
+								causes the algorithms to obtain better results than the classical version,
+								that is, without the inequalities and also, in some cases, competitive with
+								the state of the art for Max Cut.
+							</p>
+							<button class="btn btn-primary btn-lg btn-vitu md-block mt-3" type="submit"
+								onclick=" window.open('https://repositorio.ufc.br/handle/riufc/39085','_blank')"> <i
+									class="bi bi-file-earmark-text me-1"></i> Complete work here!
+							</button>
+						</div>
+
+					</div>
+				</div>
+				<div class="accordion-item" data-aos="fade-left">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								<i class="fa-regular fa-file-lines fa-xl pe-4"></i>
+							O Problema Da Diversidade Máxima de Grupos: uma abordagem de programação linear inteira
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<p class="resume">
+								<strong>
+									Abstract
+								</strong><br>
+								In the Maximally Diverse Grouping Problem, are given as input data
+								a set of n elements and a function that provides the diversity degree between
+								pair of elements. The problem is NP-hard and it aims at partitioning the set of
+								elements into smaller subsets, called groups, in such a way that the diversity
+								between the elements belonging to each group is as large as possible. In this
+								paper, we present an integer linear programming model for this problem. The
+								results from computational experiments show that the proposed model performs
+								better when compared with the quadratic one from the literature.
+							</p>
+							<button class="btn btn-primary btn-lg btn-vitu md-block mt-3" type="submit"
+								onclick=" window.open('https://proceedings.science/sbpo-series/sbpo/papers/o-problema-da-diversidade-maxima-de-grupos--uma-abordagem-de-programacao-linear-inteira','_blank')">
+								<i class="bi bi-file-earmark-text me-1"></i> Complete work here!
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item" data-aos="fade-left">
+					<h2 class="accordion-header" id="headingFour">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								<i class="fa-regular fa-file-lines fa-xl pe-4"></i>
+							Relaxação Lagrangiana Aplicada ao Problema da Diversidade Máxima de Grupos
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Coming soon.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item" data-aos="fade-left">
+					<h2 class="accordion-header" id="headingFive">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								<i class="fa-regular fa-file-lines fa-xl pe-4"></i>
+							Algoritmo Genético para o Problema Do Corte Máximo
+						</button>
+					</h2>
+					<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Coming soon.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item" data-aos="fade-left">
+					<h2 class="accordion-header" id="headingSix">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+								<i class="fa-regular fa-file-lines fa-xl pe-4"></i>
+							Estudo de Abordagens para o problema de Corte Máximo
+						</button>
+					</h2>
+					<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Coming soon.
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="accordion-item" data-aos="fade-left">
-				<h2 class="accordion-header" id="headingFour">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-						<h4 class="bi bi-file-earmark-text accordion-icon pe-4"></h4>
-						Relaxação Lagrangiana Aplicada ao Problema da Diversidade Máxima de Grupos
-					</button>
-				</h2>
-				<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-					data-bs-parent="#accordionExample">
-					<div class="accordion-body">
-						Coming soon.
-					</div>
-				</div>
-			</div>
-			<div class="accordion-item" data-aos="fade-left">
-				<h2 class="accordion-header" id="headingFive">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-						<h4 class="bi bi-file-earmark-text accordion-icon pe-4"></h4>
-						Algoritmo Genético para o Problema Do Corte Máximo
-					</button>
-				</h2>
-				<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-					data-bs-parent="#accordionExample">
-					<div class="accordion-body">
-						Coming soon.
-					</div>
-				</div>
-			</div>
-			<div class="accordion-item" data-aos="fade-left">
-				<h2 class="accordion-header" id="headingSix">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-						data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-						<h4 class="bi bi-file-earmark-text accordion-icon pe-4"></h4>
-						Estudo de Abordagens para o problema de Corte Máximo
-					</button>
-				</h2>
-				<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-					data-bs-parent="#accordionExample">
-					<div class="accordion-body">
-						Coming soon.
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+		</section>
 	</div>
-	<div class=" bg-dark pt-5 pb-5">
+	<div class=" bg-dark-1 pt-5 pb-5">
 		<div class="container">
 			<footer class="row">
-			  	<div class="col">
-
-					<a class="navbar-brand" href="http://www.nemo.ufc.br/" target="_blank">
-						<img src="http://www.nemo.ufc.br/img/logos/logo%20nemo%20menor.fw.png"
-						alt="" width="140" height="50">
-					</a>
-				</div> 
-				<div class="col">
-						
-				</div> 
-		  </div> 
+				<div class="col itens-2 text-white">
+					<h4 class="pb-3"> <i class="fa-solid fa-flask pe-1"></i> Research laboratories </h4>
+					<div class="labs">
+						<a href="http://www.loco.ic.unicamp.br/" target="_blank">
+							<img src="http://www.loco.ic.unicamp.br/images/loco.png" height="30px" width="90px">
+						</a>
+						<i class="bi bi-dot text-white"></i>
+						<a href="http://www.nemo.ufc.br/" target="_blank">
+							<img src="http://www.nemo.ufc.br/img/logos/logo%20nemo%20menor.fw.png"
+								href="http://www.nemo.ufc.br/" target="_blank" height="30px" width="90px">
+						</a>
+					</div>
+				</div>
+				<div class="col itens-2">
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Home</a></li>
+						<li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Contacts</a></li>
+						<li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-muted">Short CV here</a></li>
+						<li class="nav-item mb-2"><a href="#research-interests" class="nav-link p-0 text-muted">Research Interests</a></li>
+						<li class="nav-item mb-2"><a href="#research-activities" class="nav-link p-0 text-muted">Research Activities</a></li>
+					</ul>
+				</div>
+				<div class="col itens-2 text-white">
+					<address>
+						<h4 class="pb-2"> <i class="fa-solid fa-map-location-dot pe-1"></i> Address</h4>
+						<p>
+						<strong>
+							Laboratório de Otimização e Combinatória, Sala 62
+						</strong><br>
+							Instituto de Computação Universidade Estadual de Campinas - Unicamp, Av. Albert Eistein, 1251, Campinas/SP, Brasil, CEP: 13083-852
+						</p>
+					</address>
+				</div>
+		</div>
 	</div>
+	<div class="bg-dark-2">
+		<div class="container pt-5 pb-4">
+			<div class="row">
+				<div class="col infos">
+					<p class="text-white align-self-center">Designed and developed by: <a class="text-white"
+							href="">Thomas Dillan</a> </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/77a9dcf8fa.js" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
- 		AOS.init({
+		AOS.init({
 			once: true,
 			duration: 2000,
-			offset: 120
+			offset: 120,
 		});
-	</script>	
+	</script>
 </body>
+
 </html>
-
-	<!-- <div class="labs">
-		<a href="http://www.loco.ic.unicamp.br/" target="_blank">
-			<img src="http://www.loco.ic.unicamp.br/images/loco.png" height="30px" width="80">
-		</a>
-		<i class="bi bi-dot"></i>
-		<a href="http://www.nemo.ufc.br/" target="_blank">
-			<img src="http://www.nemo.ufc.br/img/logos/logo%20nemo%20menor.fw.png" href="http://www.nemo.ufc.br/"
-				target="_blank" height="30px" width="80">
-		</a>
-	</div> -->
-
-	<!-- </section>
-	<section class="container">
-		<div class="row">
-			<h5> PhD Student at: <a href="http://www.unicamp.br/unicamp/"> State University of Campinas -
-					<strong>Unicamp</strong></a> </h5>
-			<div class="p-l-4">
-				<ul class="sub-s">
-					<li> Master Degree in Computer Science at Unicamp </li>
-					<li> Graduated in Computer Science at Federal University of Ceará - UFC </li>
-				</ul>
-			</div>
-
-		</div>
-		<div class="row">
-			<p> Researcher in Combinatorial Optimization at: </p>
-			<ul>
-				<li> <a href="http://www.loco.ic.unicamp.br/ "> Laboratório de Otimização e Combinatória - LOCo</a>
-				</li>
-				<li> <a href="http://www.nemo.ufc.br/ "> Núcleo de Estudos em otimização e aprendizado de Máquina -
-						NEMO</a></li>
-			</ul>
-		</div>
-	</section> -->
-
-	<!-- Research interest -->
-	<!-- <div class="container mt-5">
-		<h2> Research Interest </h2>
-		<div class="row">
-			<ul>
-				<li> Combinatorial Optimization </li>
-				<li> Linear and Integer Programming </li>
-				<li> Heuristics and Meta-heuristics </li>
-				<li> Data Science </li>
-			</ul>
-		</div>
-	</div> -->
-
-	<!--
-							       <address>
-							             <strong><i class="fas fa-address-card"></i> Endereço:</strong><br />
-								             Laboratório de Otimização e Combinatória, Sala 62<br />
-									             Instituto de Computação<br />
-										             Universidade Estadual de Campinas - Unicamp <br />
-											             Av. Albert Eistein, 1251, Campinas/SP, Brasil, CEP: 13083-852<br />
-
-												           <strong><i class="fas fa-phone-square"></i> Telefone:</strong> <img src="./img/img-contato-telefone.png"
-													           alt="Telefone" height="32px" width="auto" /><br />
-														         <strong><i class="fas fa-envelope"></i> E-mail:</strong> <img src="./img/img-contato-email.png" height="35px"
-															         width="auto" alt="E-mail" />
-
-																     </address>
-																       -->

@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .img-vitu {
         display: none;
     }
@@ -26,7 +26,7 @@
     }
 
     .itens {
-        flex-basis: 100% !important;
+        flex-basis: 40% !important;
     }
 
     .itens-2 {
@@ -48,40 +48,19 @@
         flex-direction: column !important;
         align-items: stretch !important;
     }
+
+    .title{
+        font-size: 16px !important;
+    }
 }
 
-.swap-on-hover {
-    position: relative;	
-      margin:  0 auto;
-      max-width: 500px;
-  }
-  
-  /* Select the image and make it absolute to the container */
-  .swap-on-hover img {
-    position: absolute;
-    top:0;
-    left:0;
-      overflow: hidden;
-      /* Sets the width and height for the images*/
-      width: 500px;
-      height: 500px;
-  }
-  
-  /* 
-      We set z-index to be higher than the back image, so it's alwyas on the front.
-  
-  We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect. 
-  */
-  .swap-on-hover .swap-on-hover__front-image {
-    z-index: 9999;
-    transition: opacity .5s linear;
-    cursor: pointer;
-  }
-  
-  /* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
-  .swap-on-hover:hover > .swap-on-hover__front-image{
-    opacity: 0;
-  }
+.btn-vitu:hover .lattes{
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(161deg) brightness(102%) contrast(101%);
+}
+
+.lattes{
+    filter: invert(35%) sepia(98%) saturate(1032%) hue-rotate(194deg) brightness(92%) contrast(119%);
+}
 
 .navbar-brand{
     margin: 0px !important;

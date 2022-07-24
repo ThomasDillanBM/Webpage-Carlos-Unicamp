@@ -12,6 +12,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        source: "img,index.html,style.css"
+        port: 22
+        source: "*"
         target: "private_html"

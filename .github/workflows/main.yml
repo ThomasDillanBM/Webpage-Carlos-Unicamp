@@ -15,4 +15,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         source: "*"
-        target: "private_html"
+        target: "public_html"

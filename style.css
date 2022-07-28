@@ -54,6 +54,26 @@
     }
 }
 
+.date{
+    margin-bottom: 0px;
+    margin-right: 20px;
+    color: gray;
+}
+
+.icon-date{
+    color: gray;
+    padding-right: 10px;
+}
+
+.abbreviate{
+    padding-right: 12px;
+    margin: 0;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;              
+    text-overflow: ellipsis;
+}
+
 .btn-vitu:hover .lattes{
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(161deg) brightness(102%) contrast(101%);
 }

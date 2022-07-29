@@ -52,6 +52,42 @@
     .title{
         font-size: 16px !important;
     }
+
+    .doc-icon{
+        display: none !important;
+    }
+
+    .abbreviate{
+        white-space: unset !important;
+        width: auto !important;
+        overflow: hidden !important;
+        text-overflow: unset !important;
+    }
+
+    .flag{
+        order: -1;
+        align-self: flex-start;
+        margin-top: 10px
+    }
+}
+
+.date{
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.icon-date{
+    color: gray;
+    padding-right: 10px;
+}
+
+.abbreviate{
+    padding-right: 12px;
+    margin: 0;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;              
+    text-overflow: ellipsis;
 }
 
 .btn-vitu:hover .lattes{
